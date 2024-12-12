@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table th {
+    text-align: center;
+}
+
+.btn {
+    font-size: 14px;
+}
+.navbar {
+    z-index: 1030;
+    position: sticky; /* Mantiene el navbar visible al hacer scroll */
+    top: 0; /* Para que quede adherido a la parte superior */
+}
